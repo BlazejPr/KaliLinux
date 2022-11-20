@@ -1,0 +1,13 @@
+
+szukaj urz\uc0\u261 dze\u324  w sieci lokalnej wg Mac..\
+# netdiscover -h\
+# netdiscover -r 192.168.0.0/24\
+
+
+//skanuj porty..\
+# nmap -h. 192.168.1.0.  \'97 skanuje porty\
+
+
+//wyszukuje katalogi na serwerze.. metoda z pliku\
+
+# dirbuster    ,,, https://www.kali.org/tools/dirbuster/\
