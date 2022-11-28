@@ -4,10 +4,31 @@ szukaj urz\uc0\u261 dze\u324  w sieci lokalnej wg Mac..\
 # netdiscover -r 192.168.0.0/24\
 
 
+
+Proxy Chaining..
+#locate proxychains 
+#cat /etc/proxychains.conf..
+ustawić dynamic_chain :) . i zakomentować strick_chain
+dodać proxy ip... https://freeproxylists.net
+
+#proxychains firefox google.com
+
+
+
+
 //skanuj porty..\
 # nmap -h. 192.168.1.0.  \'97 skanuje porty\
-
+# nmap -sS ip..
 
 //wyszukuje katalogi na serwerze.. metoda z pliku\
-
 # dirbuster    ,,, https://www.kali.org/tools/dirbuster/\
+
+
+
+#dnsrecon -d domena.xxx
+
+//pozyskiwanie iformacji... TheHarvester jest skryptem napisanym w pythonie wykorzystywanym do białego wywiadu. Gromadzi ono wiadomości email, nazwy użytkowników, subdomeny, adresy IP i wiele więcej z publicznych źródeł.
+#theHarvester -d domena.xxx //inne opcje..
+
+#theHarvester -d domena.xxx -b google bing
+#theHarvester -d domena.xxx -b all
