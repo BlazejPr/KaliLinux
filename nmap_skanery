@@ -1,1 +1,12 @@
 
+
+
+nmap -sS -T4 --top-ports 100 192.168.1.0/24
+
+-sS — SYN scan (wymaga praw root/sudo dla surowych gniazd).
+
+-T4 — szybsze tempo (uważaj w dużych sieciach).
+
+--top-ports 100 — tylko 100 najczęściej używanych portów.
+
+192.168.1.0/24 — przykładowy zakres lokalnej sieci (dostosuj do swojej podsieci).
