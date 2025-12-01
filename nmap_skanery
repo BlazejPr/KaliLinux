@@ -10,3 +10,9 @@ nmap -sS -T4 --top-ports 100 192.168.1.0/24
 --top-ports 100 — tylko 100 najczęściej używanych portów.
 
 192.168.1.0/24 — przykładowy zakres lokalnej sieci (dostosuj do swojej podsieci).
+
+//wyswietl liste arp z lokalnego komputera...
+arp -a 
+
+//skanuj siec..
+arp-scan 192.168.18.1/24
